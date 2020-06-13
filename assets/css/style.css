@@ -1,20 +1,29 @@
+/*=================================================================================
+    CSS Page refactoring with detailed commenting and adjustment of semantics 
+=====================================================================================*/
+
+/*--CSS 1 - Default Page Styling--*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
+/*--CSS 2 - Body Element Styling--*/
+
 body {
     background-color: #d9dcd6;
 }
-a  {
+body a  {
     color: #ffffff;
     text-decoration: none;
 }
-p, article {
+body p, article {
     font-size: 16px;
 }
 
+/*--CSS 3 - Header Element Styling--*/
 
 header {
     padding: 20px;
@@ -29,25 +38,24 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-
-nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-nav ul {
+header nav ul {
     list-style-type: none;
 }
-nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*--CSS 4 - Section Element - Background Image Styling--*/
 
-section {
+section .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -56,12 +64,14 @@ section {
     background-position: center;
 }
 
-
+/*--CSS 5 - Main Element Styling--------------------------*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/*--CSS 6 - DIV of Main Styling (applies to ALL DIVs in Main--*/
 .search-engine-optimization, 
 .online-reputation-management,
 .social-media-marketing {
@@ -92,7 +102,7 @@ main {
     margin-left: 25px;
 }
 
-
+/*--CSS 7 - Aside Styling -------------------------------*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -123,7 +133,7 @@ aside {
     max-width: 150px;
 }
 
-
+/*--CSS 8 - Footer Class Styling------------------------------*/
 footer {
     padding: 30px;
     clear: both;

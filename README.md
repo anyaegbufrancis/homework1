@@ -49,3 +49,18 @@ version 1.1 - Refactored code commit
       
 6 - Footer 
 
+## TABLE OF CONTENT - CSS PAGE
+
+1 - Default Page Styling
+
+2 - Body Element Styling
+
+3 - Header Element Styling
+
+4 - Section Element - Background Image Styling
+
+5 - Main Element Styling
+
+6 - DIV of Main Styling (applies to ALL Main DIVs
+
+7 - Aside Styling CSS 8 - Footer Class Styling
