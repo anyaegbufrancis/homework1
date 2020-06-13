@@ -4,7 +4,7 @@ This project is Full Stack Development homework. This is a hands on attempt to r
 
 The completed task can be seen on github link below:
 
-https://anyaegbufrancis.github.io/homework1/
+https://anyaegbufrancis.github.io/project01-refactor/
 
 ## User Story
 
